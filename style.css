@@ -1,0 +1,13 @@
+:root { --bg: #F3ECE2; --ink: #1C1815; --mute: #6F655B; --accent: #8E4052; --card: #EAE1D4; }
+* { box-sizing: border-box; }
+body { margin: 0; background: var(--bg); color: var(--ink); font: 17px/1.6 'Instrument Sans', system-ui, -apple-system, sans-serif; }
+main { max-width: 680px; margin: 0 auto; padding: 48px 20px 80px; }
+.logo { font: italic 40px/1 'Instrument Serif', Georgia, serif; text-decoration: none; color: var(--ink); }
+.logo span { color: var(--accent); }
+h1 { font: 400 44px/1.1 'Instrument Serif', Georgia, serif; margin: 32px 0 8px; }
+h2 { font: 400 26px/1.2 'Instrument Serif', Georgia, serif; margin: 36px 0 8px; }
+p, li { color: var(--ink); }
+.muted { color: var(--mute); font-size: 15px; }
+a { color: var(--accent); }
+.card { background: var(--card); border-radius: 20px; padding: 18px 20px; margin: 16px 0; }
+nav { margin-top: 48px; display: flex; gap: 20px; font-size: 15px; }
